@@ -1451,15 +1451,13 @@ case 'truth':
                            Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ Mariatruthww }, {quoted:m})
                            break
                            
-            case 'menu':
-            case 'help':
-            case 'alive':
+           
             case '?':
             let mono = '```'
                 let Ayushmenuoh = `Hello ${pushname}
  ${Ayushytimewisher} 
  
-I am *Maria-Md*, a whatsapp bot created by Alia floiyrine
+whatsapp bot created by Si kontol
 
  *━━━〈  🎆 General 🎆 〉━━*
 ⚡ ️️hi
