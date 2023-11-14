@@ -1164,7 +1164,7 @@ case 'chatgpt': case 'gpt':{
       case "info":
             
       
-        let ifx = `🌟『𝕄𝕒𝕣𝕚𝕒-𝕄𝕕 』🌟
+        let ifx = `🌹Bot Kontol🌹
 *🌟Description:* A WhatsApp Bot With Rich  features based on Maria
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
