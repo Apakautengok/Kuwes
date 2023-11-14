@@ -697,7 +697,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Testing Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -716,20 +716,7 @@ case 'tag': case 'tagall': case 'all':{
                     }).catch((err) => reply(json(err)))
                 break
                 
-            
-            case "sc": case "script": case"repo": {
-   const scritxt = `*Script?
-   https://www.youtube.com/@rizalfreall*`
-
-        let buttonMessage = {
-                 video:fs.readFileSync('./Gallery/thumb.jpg'),gifPlayback:true,   
-                    caption: scritxt,
-                    
-                    
-                }
-            Maria.sendMessage(m.chat, buttonMessage,{ quoted:m })
-                }
-break
+           
  
         
             
@@ -1140,7 +1127,7 @@ case 'chatgpt': case 'gpt':{
              
             case "rules":
       
-        const helptxt = `_*📍[Rules for Maria Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Alia Floiyrine* `
+        const helptxt = `_*📍[Rules for Testing_ usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Alia Floiyrine* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1148,7 +1135,7 @@ case 'chatgpt': case 'gpt':{
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *Maria-Md*📍\nA whatsapp bot created by: Alia \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *Testing_*📍\nA whatsapp bot created by: Alia \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { video: { url: `https://c.tenor.com/4TLYvKWI2mgAAAPo/nakano-yotsuba-smile.mp4` }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1541,6 +1528,38 @@ let buttonMessage = {
                 break
                 
 
+		case 'Rizz'
+			let mono = '```'
+                let Ayushmenuoh = `Hello ${pushname}
+ ${Ayushytimewisher} 
+   *━━━〈  🎀 Owner 🎀 〉━━━*
+🔮 session
+🔮 join
+🔮 shutdown  
+🔮 restart
+🔮 autoread *[option]*
+🔮 autotyping *[option]*
+🔮 autorecording *[option]*
+🔮 autorecordtyp *[option]*
+🔮 autobio *[option]*
+🔮 autoswview *[option]*
+🔮 mode *[option]*
+🔮 block
+🔮 unblock 
+🔮 backup
+🔮 getcase
+🔮 addowner
+🔮 delowner
+`
+let buttonMessage = {
+                 video:fs.readFileSync('./Gallery/maria.mp4'),gifPlayback:true,   
+                    caption: Ayushmenuoh,
+                    
+                    
+                }
+            Maria.sendMessage(m.chat, buttonMessage,{ quoted:m })
+                
+                break
                 
 case 'runtime': {
       
