@@ -2,23 +2,23 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "6289635946324"
-global.ownername = "KayzenKece`"
-global.ytname = "YT: KAYZEN OFFC"
+global.ownernomer = "6289522700900"
+global.ownername = "`Rizz`"
+global.ytname = ""
 global.socialm = "GitHub: "
 global.location = "Indonesia"
 
-global.ownernumber = '6289635946324'  //creator number
-global.ownername = 'KAYZEN OFFC`' //owner name
-global.botname = 'K-MD' //name of the bot
+global.ownernumber = '6289522700900'  //creator number
+global.ownername = 'Rizz' //owner name
+global.botname = 'Testing_' //name of the bot
 
 //sticker details
-global.stickername = '💙𓆩‎✘KAYZEN✘𓆪_✰'
+global.stickername = 'kontol'
 global.packname = 'Sticker By'
 global.author = 'KAYZEN Bot'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "KAYZEN botz inc."
+global.wm = "Testing botz inc."
 
 //theme link
 global.link = '' // if you want to send bot reply with group link then put your link here 🌿 
